@@ -1,18 +1,92 @@
 h1 {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.profile_round {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  border: 3px solid #9f7369;
+  overflow: 3px;
+}
+
+.volei_style {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  border: 3px solid #44466b;
+}
+
+.header_links {
+  width: auto;
+  height: auto;
+  background-color: #3e1420;
+  overflow: visible;
+}
+
+.background_main {
+  width: auto;
+  height: auto;
+  background-color: #a15459;
+  overflow: visible;
+}
+
+.background_down {
+  width: auto;
+  height: auto;
+  background-color: #d28b8c;
+  overflow: visible;
+}
+
+.column {
+  width: 30%;
+  display: inline-block;
+  margin-right: 1%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+.column h4 {
+  margin: top 0;
+}
+.hobbies-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hobby {
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .hobbies-container {
+    flex-direction: column;
   }
-  
-  .profile {
-    width: 400px;
-    height: 400px;
-    border-radius: 10px;
-    border: 10px solid #9f7369;
+
+  .hobby {
+    width: 100%;
   }
-  
-  .girl-with-volley-ball {
-    width: 400px;
-    height: 400px;
-    border-radius: 10px;
-    border: 10px solid #716710;
-  }
-  
+}
+
+.midias_video {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.titulo_back {
+  font-size: 35px;
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+check_no_overflow {
+  overflow: none;
+}
