@@ -22,6 +22,8 @@ h1 {
   height: auto;
   background-color: #3e1420;
   overflow: visible;
+  display: flex;
+  align-items: center;
 }
 
 .background_main {
@@ -89,4 +91,18 @@ h1 {
 
 check_no_overflow {
   overflow: none;
+}
+
+.box_header {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
